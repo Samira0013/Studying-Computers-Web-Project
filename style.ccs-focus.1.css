@@ -1,0 +1,63 @@
+<style>
+
+.tab {
+  overflow: visible;
+  border: 1px solid #eae3db;
+  background-color: #000000;
+
+
+}
+
+.div {
+    color: white;
+    
+}
+
+
+.tab button {
+  background-color: rgb(113, 99, 99);
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.tab button:hover {
+  background-color: #343131;
+}
+
+
+.tab button.active {
+  background-color: #3d3c3c;
+  
+}
+
+
+.tabcontent {
+  display: none;
+  color: #eae3db;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  
+}
+
+body {
+    color:#100e0b;
+    background: #282626;
+    margin: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+  
